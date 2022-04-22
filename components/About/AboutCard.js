@@ -16,13 +16,13 @@ function AboutCard() {
             <br />
             A majority of my career has been focused on full-stack development with clients, which includes projects at various stages of their lifecycle.
             <br />
-            Below is high-level information about my technical skills and abilities but the best way to find out if I'm the right fit for your project is to reach out and schedule a call to discuss the specifics of your project.
+            Below is high-level information about my technical skills and abilities but the best way to find out if I&apos;m the right fit for your project is to reach out and schedule a call to discuss the specifics of your project.
             <br />
             <br />
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"
+            &quot;Strive to build things that make a difference!&quot;
           </p>
           <footer className="blockquote-footer">Jorgihno</footer>
         </blockquote>
