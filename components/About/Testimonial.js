@@ -1,11 +1,10 @@
 import React, { useMemo, useEffect, useState } from 'react';
 import { debounce } from 'throttle-debounce';
-// import Swiper core and required modules
+
 import SwiperCore, { FreeMode, Keyboard, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Row, Col } from "react-bootstrap";
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -50,7 +49,6 @@ const Testimonial = () => {
     const { width } = useWindowSize();
 
     const spaceBeteen = useMemo(() => (width > 500 ? 24 : 14), [width]);
-    const slidesOffsetBefore = 50;
     return (
         <>
             <h1 className="testimonial-heading">

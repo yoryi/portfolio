@@ -2,13 +2,11 @@ import React from "react";
 import ReactStars from "react-rating-stars-component";
 import Card from "react-bootstrap/Card";
 
-import matt from '../../Assets/matt.png';
-
 const TestimonialCard = (props) => {
 
     return (
         <Card className="testimonial-card-view">
-            <Card.Img src="../../Assets/matt.png" alt="card-img" className="user-img" />
+            <Card.Img src="../../assets/matt.png" alt="card-img" className="user-img" />
             <Card.Body>
                 <Card.Text style={{ textAlign: "justify" }}>
                     {props.description}

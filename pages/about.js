@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Image from 'Next/image';
 import Particle from "../components/Particle";
 import Github from "../components/About/Github";
 import Techstack from "../components/About/Techstack";
 import Aboutcard from "../components/About/AboutCard";
-import laptopImg from "../Assets/about.png";
+import laptopImg from "../assets/about.png";
 import Toolstack from "../components/About/Toolstack";
 import Testimonial from '../components/About/Testimonial';
 
@@ -33,7 +32,7 @@ function About() {
                         style={{ paddingTop: "120px", paddingBottom: "50px" }}
                         className="about-img"
                     >
-                        <Image src={laptopImg} alt="about" className="img-fluid" />
+                        <img src={"../../assets/about.png"} alt="about" className="img-fluid" />
                     </Col>
                 </Row>
                 <h1 className="project-heading">

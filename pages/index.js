@@ -30,7 +30,7 @@ function Home() {
             </Col>
 
             <Col md={5} >
-              <img src={"../Assets/home-main.svg"}
+              <img src="../assets/home-main.svg"
                 alt="home pic"
                 className="img-fluid"
               />
