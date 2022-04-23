@@ -4,7 +4,6 @@ import Particle from "../components/Particle";
 import Github from "../components/About/Github";
 import Techstack from "../components/About/Techstack";
 import Aboutcard from "../components/About/AboutCard";
-import laptopImg from "../assets/about.png";
 import Toolstack from "../components/About/Toolstack";
 import Testimonial from '../components/About/Testimonial';
 
