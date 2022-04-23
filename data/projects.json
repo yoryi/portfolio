@@ -2,14 +2,14 @@
     "id": "#1",
     "title": "Yolorekt Finance",
     "url": "https://yolorekt.finance/",
-    "img": "../../assets/Projects/yolorekt_screenshot.png",
+    "img": "../../Assets/Projects/yolorekt_screenshot.png",
     "description": "YOLOREKT IS A SOCIAL AND FUN WAY TO BID ON THE FUTURE PRICE OF CRYPTO. PROVIDE IN-GAME LIQUIDITY TOEARN GAME FEES AND YOLO REWARDS.",
     "techStack": "React, Styled-component, Redux,AWS Lambda, API Gateway,GraphQL"
 },{
     "id": "#2",
     "title": "Alethea_AI",
     "url": "https://alethea.ai",
-    "img": "../../assets/Projects/alethea_screenshot.png",
+    "img": "../../Assets/Projects/alethea_screenshot.png",
     "description": "TO DEMOCRATIZE CGI AND TO ENABLE A COMMUNITY OF CREATORS, DEVELOPERS AND FANS TO CREATE, EXPRESSIVE,INTELLIGENT AND INTERACTIVE AI AVATARS WITH THEIR OWN HEALTHY AND THRIVING VIRTUAL ECONOMIES.",
     "techStack": "React.js, AWS Architect, Material UI,Node.js"
 
@@ -17,7 +17,7 @@
     "id": "#3",
     "title": "Fathom Radiant",
     "url": "https://fathomradiant.co",
-    "img": "../../assets/Projects/fathomradiant_screenshot.png",
+    "img": "../../Assets/Projects/fathomradiant_screenshot.png",
     "description": "COMPANY BUSINESS WEBSITES, HIRING PLATFORM, BLOG ADMIN/CREATOR",
     "techStack": "JavaScript, React, Next.js, Node.js,TailwindCSS, Nginx"
 
@@ -25,7 +25,7 @@
     "id": "#4",
     "title": "Velvetropes",
     "url": "https://velvetropes.com/",
-    "img": "../../assets/Projects/velvetropes_screenshot.png",
+    "img": "../../Assets/Projects/velvetropes_screenshot.png",
     "description": "CELEBRITY HOMES AND TOUR MAP SALES SITE",
     "techStack": "Typescript, React, Next.js, MaterialUI, AWS Architect, Nginx"
 
@@ -33,7 +33,7 @@
     "id": "#5",
     "title": "THREAD",
     "url": "https://www.thread.com/",
-    "img": "../../assets/Projects/thread_screenshot.png",
+    "img": "../../Assets/Projects/thread_screenshot.png",
     "description": "E-COMMERCE DRESS SHIPPING SITE",
     "techStack": "JavaScript, React, Next.js, Node.js,AWS Architect, TailwindCSS, Nginx"
 
@@ -41,7 +41,7 @@
     "id": "#6",
     "title": "Fitforce App",
     "url": "https://fitforce.com/",
-    "img": "../../assets/Projects/fitforece_screenshot.png",
+    "img": "../../Assets/Projects/fitforece_screenshot.png",
     "description": "FULL-SUITE PERSONAL FITNESS PLATFORM. FIND AND CONNECT WITH PERSONAL TRAINERS ONLINE AND IN YOURAREA",
     "techStack": "React Native, React.js, Android,Swift, Objective-C, Node.js, AWSCloud, Serverless"
 

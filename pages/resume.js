@@ -24,7 +24,7 @@ function ResumeNew() {
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button
                         variant="primary"
-                        href={"../assets/resume-yoryi.pdf"}
+                        href={"../Assets/resume-yoryi.pdf"}
                         target="_blank"
                         style={{ maxWidth: "250px" }}
                     >
@@ -34,7 +34,7 @@ function ResumeNew() {
                 </Row>
 
                 <Row className="resume">
-                    <Document file={"../assets/resume-yoryi.pdf"} className="d-flex justify-content-center">
+                    <Document file={"../Assets/resume-yoryi.pdf"} className="d-flex justify-content-center">
                         <Page pageNumber={numPages} scale={width > 786 ? 1.7 : 0.6} />
                     </Document>
                 </Row>
@@ -48,7 +48,7 @@ function ResumeNew() {
                 <Row style={{ justifyContent: "center", position: "relative", marginTop: '30px' }}>
                     <Button
                         variant="primary"
-                        href={"../assets/resume-yoryi.pdf"}
+                        href={"../Assets/resume-yoryi.pdf"}
                         target="_blank"
                         style={{ maxWidth: "250px" }}
                     >
