@@ -869,6 +869,7 @@ button:focus {
   left: 0;
   right: 0;
   background: #2d1950;
+  opacity: 0.9;
   overflow: hidden;
   width: 100%;
   height: 0;

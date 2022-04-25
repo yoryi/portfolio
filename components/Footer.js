@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from 'Next/Image';
 
 function Footer() {
   let date = new Date();
@@ -21,7 +22,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/Assets/icons/upwork.svg" width={15} height={15} />
+                <Image src="/Assets/icons/upwork.svg" width={15} height={15} alt="upwork" />
 
               </a>
             </li>
@@ -31,7 +32,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/Assets/icons/github2.svg" width={15} height={15} />
+                <Image src="/Assets/icons/github2.svg" width={15} height={15} alt="github" />
               </a>
             </li>
             <li className="social-icons">
@@ -39,7 +40,7 @@ function Footer() {
                 href="mailto:jorgihno.ojeda@gmail.com"
                 rel="noopener noreferrer"
               >
-                <img src="/Assets/icons/email.svg" width={16} height={15} />
+                <Image src="/Assets/icons/email.svg" width={16} height={15} alt="email" />
 
               </a>
             </li>
@@ -50,7 +51,7 @@ function Footer() {
                 rel="noopener noreferrer"
 
               >
-                <img src="/Assets/icons/linkedin.svg" width={14} height={14} />
+                <Image src="/Assets/icons/linkedin.svg" width={14} height={14} alt="linkedin" />
               </a>
             </li>
             <li className="social-icons">
@@ -60,7 +61,7 @@ function Footer() {
                 rel="noopener noreferrer"
 
               >
-                <img src="/Assets/icons/instagram.svg" width={14} height={14} />
+                <Image src="/Assets/icons/instagram.svg" width={14} height={14} alt="instagram" />
 
               </a>
             </li>
@@ -71,7 +72,7 @@ function Footer() {
                 rel="noopener noreferrer"
 
               >
-                <img src="/Assets/icons/facebook.svg" width={14} height={14} />
+                <Image src="/Assets/icons/facebook.svg" width={14} height={14} alt="facebook" />
               </a>
             </li>
           </ul>
