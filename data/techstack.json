@@ -56,7 +56,7 @@
         "imgPath": "/Assets/icons/graphql.svg",
         "imgPath1": "/Assets/icons/graphql1.svg",
         "percent": "0.9",
-        "type": "default"
+        "type": "small"
 
     },
 
@@ -91,7 +91,7 @@
         "imgPath": "/Assets/icons/aws.svg",
         "imgPath1": "/Assets/icons/aws1.svg",
         "percent": "0.9",
-        "type": "default"
+        "type": "small"
 
     },
 
@@ -101,7 +101,7 @@
         "imgPath": "/Assets/icons/firebase.svg",
         "imgPath1": "/Assets/icons/firebase1.svg",
         "percent": "0.9",
-        "type": "small"
+        "type": "smaller"
 
     },
 
@@ -110,7 +110,7 @@
         "imgPath": "/Assets/icons/contentful.svg",
         "imgPath1": "/Assets/icons/contentful1.svg",
         "percent": "0.9",
-        "type": "default"
+        "type": "small"
 
     },
     
