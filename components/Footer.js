@@ -1,11 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiUpwork } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -24,41 +18,60 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.upwork.com/fl/yoryojeda"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <SiUpwork />
+                <img src="/Assets/icons/upwork.svg" width={15} height={15} />
+
               </a>
             </li>
             <li className="social-icons">
               <a
                 href="https://github.com/yoryi"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <img src="/Assets/icons/github2.svg" width={15} height={15} />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="/"
-                style={{ color: "white" }}
-                target="_blank"
+                href="mailto:jorgihno.ojeda@gmail.com"
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <img src="/Assets/icons/email.svg" width={16} height={15} />
+
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/yoryiojeda/"
-                style={{ color: "white" }}
+                href="https://linkedin.com/yoryi"
                 target="_blank"
                 rel="noopener noreferrer"
+
               >
-                <AiFillInstagram />
+                <img src="/Assets/icons/linkedin.svg" width={14} height={14} />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/yoryi"
+                target="_blank"
+                rel="noopener noreferrer"
+
+              >
+                <img src="/Assets/icons/instagram.svg" width={14} height={14} />
+
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.facebook.com/yoryi"
+                target="_blank"
+                rel="noopener noreferrer"
+
+              >
+                <img src="/Assets/icons/facebook.svg" width={14} height={14} />
               </a>
             </li>
           </ul>

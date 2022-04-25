@@ -6,8 +6,30 @@ const TestimonialCard = (props) => {
 
     return (
         <Card className="testimonial-card-view">
-            <Card.Img src="../../Assets/matt.png" alt="card-img" className="user-img" />
+            <Card.Header>
+                <img src={props.userImg} alt="card-img" className="user-img" />
+
+            </Card.Header>
+
             <Card.Body>
+                <div className="d-flex justify-content-center mb-2">
+                    <a
+                        href={props.references?.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ marginRight: '20px', cursor: 'pointer' }}
+                    >
+                        <img src="/Assets/icons/linkedin.svg" width={25} height={25} />
+                    </a>
+                    <a
+                        href={props.references?.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ cursor: 'pointer' }}
+                    >
+                        <img src="/Assets/icons/facebook.svg" width={25} height={25} />
+                    </a>
+                </div>
                 <Card.Text style={{ textAlign: "justify" }}>
                     {props.description}
                 </Card.Text>

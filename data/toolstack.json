@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Xcode",
+        "imgPath": "/Assets/icons/xcode.svg"
+    },
+
+    {
+        "title": "VScode",
+        "imgPath": "/Assets/icons/vscode.svg"
+    },
+
+    {
+        "title": "IntelliJ IDEA",
+        "imgPath": "/Assets/icons/intellij.svg"
+    },
+    
+    {
+        "title": "Jira",
+        "imgPath": "/Assets/icons/jira.svg"
+    },
+
+    {
+        "title": "Asana",
+        "imgPath": "/Assets/icons/asana.svg"
+    },
+
+    {
+        "title": "Trello",
+        "imgPath": "/Assets/icons/trello.svg"
+    },
+
+    {
+        "title": "Hubspot",
+        "imgPath": "/Assets/icons/hubspot.svg"
+    },
+
+    {
+        "title": "Vercel",
+        "imgPath": "/Assets/icons/vercel.svg"
+    },
+
+    {
+        "title": "Heroku",
+        "imgPath": "/Assets/icons/heroku.svg"
+    },
+
+    {
+        "title": "Netlify",
+        "imgPath": "/Assets/icons/netlify.svg"
+    }
+   
+]

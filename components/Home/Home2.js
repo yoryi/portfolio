@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiUpwork } from "react-icons/si";
 
 function Home2() {
   return (
@@ -50,7 +44,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={"../../Assets/avatar.svg"} className="img-fluid" alt="avatar" />
+              <img src={"/Assets/yoryi.png"} className="avatar" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -68,7 +62,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <SiUpwork />
+                  <img src="/Assets/icons/upwork.svg" width={20} height={20} />
                 </a>
               </li>
               <li className="social-icons">
@@ -76,29 +70,52 @@ function Home2() {
                   href="https://github.com/yoryi"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
-                  <AiFillGithub />
+                  <img src="/Assets/icons/github3.svg" width={20} height={20} />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/"
+                  href="mailto:jorgihno.ojeda@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <img src="/Assets/icons/email.svg" width={20} height={20} />
+
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/yoryiojeda/"
+                  href="https://www.linkedin.com/yoryi"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <img src="/Assets/icons/linkedin.svg" width={20} height={20} />
+
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/yoryi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <img src="/Assets/icons/instagram.svg" width={20} height={20} />
+
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.facebook.com/yoryi"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <img src="/Assets/icons/facebook.svg" width={20} height={20} />
                 </a>
               </li>
             </ul>

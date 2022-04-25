@@ -79,7 +79,7 @@ const Testimonial = () => {
                     }}
 
                 >
-                    {data.map((value, index) => <Col md={4} className="project-card" key={index}><SwiperSlide key={index}><TestimonialCard userImg={value.userImg} description={value.description} name={value.name} rating={value.rating} /></SwiperSlide></Col>)}
+                    {data.map((value, index) => <Col md={4} className="project-card" key={index}><SwiperSlide key={index}><TestimonialCard userImg={value.userImg} description={value.description} name={value.name} rating={value.rating} reference={value.reference} /></SwiperSlide></Col>)}
                 </Swiper>
             </Row>
         </>
