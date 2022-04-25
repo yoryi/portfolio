@@ -3,7 +3,7 @@
         "title": "Javascript",
         "imgPath": "/Assets/icons/javascript.svg",
         "imgPath1": "/Assets/icons/javascript1.svg",
-        "percent": "0.8",
+        "percent": "0.98",
         "type": "default"
 
     },
@@ -12,7 +12,7 @@
         "title": "React",
         "imgPath": "/Assets/icons/react.svg",
         "imgPath1": "/Assets/icons/react1.svg",
-        "percent": "0.8",
+        "percent": "1",
         "type": "small"
     },
 
@@ -20,7 +20,7 @@
         "title": "Next",
         "imgPath": "/Assets/icons/nextjs.svg",
         "imgPath1": "/Assets/icons/nextjs1.svg",
-        "percent": "0.8",
+        "percent": "0.95",
         "type": "default"
 
     },
@@ -29,7 +29,7 @@
         "title": "Gatsby",
         "imgPath": "/Assets/icons/gatsby.svg",
         "imgPath1": "/Assets/icons/gatsby1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "default"
 
     },
@@ -38,7 +38,7 @@
         "title": "MUI",
         "imgPath": "/Assets/icons/material.svg",
         "imgPath1": "/Assets/icons/material1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "default"
 
     },
@@ -47,7 +47,7 @@
         "title": "Tailwind",
         "imgPath": "/Assets/icons/tailwind.svg",
         "imgPath1": "/Assets/icons/tailwind1.svg",
-        "percent": "0.8",
+        "percent": "1",
         "type": "small"
     },
 
@@ -55,7 +55,7 @@
         "title": "GraphQL",
         "imgPath": "/Assets/icons/graphql.svg",
         "imgPath1": "/Assets/icons/graphql1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "default"
 
     },
@@ -90,7 +90,7 @@
         "title": "AWS",
         "imgPath": "/Assets/icons/aws.svg",
         "imgPath1": "/Assets/icons/aws1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "default"
 
     },
@@ -100,7 +100,7 @@
         "title": "Firebase",
         "imgPath": "/Assets/icons/firebase.svg",
         "imgPath1": "/Assets/icons/firebase1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "small"
 
     },
@@ -109,7 +109,7 @@
         "title": "Contentful",
         "imgPath": "/Assets/icons/contentful.svg",
         "imgPath1": "/Assets/icons/contentful1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "default"
 
     },
@@ -118,7 +118,7 @@
         "title": "Github",
         "imgPath": "/Assets/icons/github.svg",
         "imgPath1": "/Assets/icons/github1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "default"
 
     },
@@ -127,7 +127,7 @@
         "title": "Bitbucket",
         "imgPath": "/Assets/icons/bitbucket.svg",
         "imgPath1": "/Assets/icons/bitbucket1.svg",
-        "percent": "0.8",
+        "percent": "0.9",
         "type": "small"
     }
 ]
