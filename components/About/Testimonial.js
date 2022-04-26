@@ -1,7 +1,7 @@
 import React, { useMemo, useEffect, useState } from 'react';
 import { debounce } from 'throttle-debounce';
 
-import SwiperCore, { FreeMode, Keyboard, Navigation, Pagination } from 'swiper';
+import SwiperCore, { FreeMode, Keyboard, Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Row, Col } from "react-bootstrap";
 
@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import TestimonialCard from './TestmonialCard';
 import data from '../../data/testimonials.json'
 
-SwiperCore.use([FreeMode, Pagination, Keyboard, Navigation]);
+SwiperCore.use([FreeMode, Pagination, Keyboard, Navigation, Autoplay]);
 
 const useWindowSize = () => {
     const isClient = typeof window === 'object';
@@ -60,6 +60,9 @@ const Testimonial = () => {
                     slidesPerView={1}
                     spaceBetween={spaceBeteen}
                     pagination={{ clickable: true }}
+                    autoplay={{
+                        delay: 8000
+                    }}
                     breakpoints={{
                         // when window width is >= 320px
                         320: {
@@ -79,7 +82,7 @@ const Testimonial = () => {
                     }}
 
                 >
-                    {data.map((value, index) => <Col md={4} className="project-card" key={index}><SwiperSlide key={index}><TestimonialCard userImg={value.userImg} description={value.description} name={value.name} rating={value.rating} reference={value.reference} /></SwiperSlide></Col>)}
+                    {data.map((value, index) => <Col md={4} className="project-card" key={index}><SwiperSlide key={index} ><TestimonialCard userImg={value.userImg} description={value.description} userInfo={value.userInfo} rating={value.rating} reference={value.reference} /></SwiperSlide></Col>)}
                 </Swiper>
             </Row>
         </>

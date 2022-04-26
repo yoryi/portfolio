@@ -847,7 +847,8 @@ button:focus {
   font-style: revert;
 }
 .about-section .swiper-pagination  {
-  bottom: 0!important;
+  position: absolute;
+    bottom: -7px !important;
 }
 .about-section .swiper-pagination-bullet {
   background-color: white;
@@ -917,4 +918,56 @@ button:focus {
 .tool-icon {
   width: 72px;
   height: 72px;
+}
+
+.testimonial-card-view .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  background: #2d1950;
+  opacity: 0.9;
+  overflow: hidden;
+  height: 0px;
+  width: 120px!important;
+  /* border-radius: 50%!important; */
+  align-self: center;
+  transform: translate(-50%, 0);
+  transition: .4s ease;
+}
+
+.testimonial-card-view .card-header {
+  position: relative;
+  border-bottom: 0 !important;
+}
+
+
+.testimonial-card-view  .overlay-circle:hover .overlay {
+  /* display: block; */
+  height: 120px;
+}
+
+.testimonial-card-view .social-icons{
+  display: flex !important;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,  -50%);  
+  /* height: 120px; */
+}
+
+
+.testimonial-card-view .user-img{
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: #eebd27; */
+}
+
+.overlay-circle {
+  position: relative;
+  width: 120px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
 }

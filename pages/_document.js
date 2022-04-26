@@ -7,7 +7,6 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta content="Jorgihno | Portfolio" property="title" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="description" content="Web site created using create-react-app" />
                     <link href="/favicon.png" rel="icon" type="image/png" />
                 </Head>

@@ -1,51 +1,50 @@
-import React from "react";
-import ReactStars from "react-rating-stars-component";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 
+import fallback from "../../public/Assets/icons/avatar.svg";
+
 const TestimonialCard = (props) => {
+    const [imageError, setImageError] = useState(false);
+    const fallBackSrc = fallback.src;
+    const fullname = props.userInfo.split(",")[0];
+    const career = props.userInfo.split(",")[1];
 
     return (
         <Card className="testimonial-card-view">
             <Card.Header>
-                <img src={props.userImg} alt="card-img" className="user-img" />
+                <div className="overlay-circle">
 
-            </Card.Header>
-
-            <Card.Body>
-                <div className="d-flex justify-content-center mb-2">
-                    <a
-                        href={props.references?.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ marginRight: '20px', cursor: 'pointer' }}
-                    >
-                        <img src="/Assets/icons/linkedin.svg" width={25} height={25} />
-                    </a>
-                    <a
-                        href={props.references?.facebook}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ cursor: 'pointer' }}
-                    >
-                        <img src="/Assets/icons/facebook.svg" width={25} height={25} />
-                    </a>
+                    <div className="overlay">
+                        <div className="social-icons">
+                            <a
+                                href={props.references?.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ marginRight: '20px', cursor: 'pointer' }}
+                            >
+                                <img src="/Assets/icons/linkedin1.svg" width={25} height={25} />
+                            </a>
+                            <a
+                                href={props.references?.facebook}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ cursor: 'pointer' }}
+                            >
+                                <img src="/Assets/icons/facebook1.svg" width={25} height={25} />
+                            </a>
+                        </div>
+                    </div>
+                    <img src={imageError ? fallBackSrc : props.userImg} alt="card-img" className="user-img" onError={() => setImageError(true)} />
                 </div>
-                <Card.Text style={{ textAlign: "justify" }}>
-                    {props.description}
+            </Card.Header>
+            <Card.Body>
+
+                <Card.Text style={{ marginBottom: 0, fontSize: "20px" }}>{fullname}</Card.Text>
+                <Card.Text style={{ marginBottom: 0, color: "#c770f0" }}>{career}</Card.Text>
+                <br />
+                <Card.Text style={{ textAlign: "center" }}>
+                    {`${props.description}`}
                 </Card.Text>
-                <Card.Text style={{ marginBottom: 0 }}>{props.name}</Card.Text>
-                <ReactStars
-                    classNames="rating-stars"
-                    edit={false}
-                    count={5}
-                    value={5}
-                    size={24}
-                    isHalf={true}
-                    emptyIcon={<i className="far fa-star"></i>}
-                    halfIcon={<i className="fa fa-star-half-alt"></i>}
-                    fullIcon={<i className="fa fa-star"></i>}
-                    style={{ justifyContent: 'center' }}
-                />
             </Card.Body>
         </Card>
     )
