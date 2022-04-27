@@ -5,8 +5,8 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
-  AiOutlineMail
 } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import { SiUpwork } from 'react-icons/si';
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
@@ -89,7 +89,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineMail />
+                  <MdEmail />
                 </a>
               </li>
               <li className="social-icons">
