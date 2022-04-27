@@ -62,7 +62,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/upwork.svg" width={20} height={20} />
+                  <img src="/Assets/icons/upwork.svg" width={20} height={20} alt="upwork" />
                 </a>
               </li>
               <li className="social-icons">
@@ -72,7 +72,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/github3.svg" width={20} height={20} />
+                  <img src="/Assets/icons/github3.svg" width={20} height={20} alt="github" />
                 </a>
               </li>
               <li className="social-icons">
@@ -82,7 +82,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <img src="/Assets/icons/email.svg" width={20} height={20} />
+                  <img src="/Assets/icons/email.svg" width={20} height={20} alt="email" />
 
                 </a>
               </li>
@@ -93,7 +93,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <img src="/Assets/icons/linkedin.svg" width={20} height={20} />
+                  <img src="/Assets/icons/linkedin.svg" width={20} height={20} alt="linkedin" />
 
                 </a>
               </li>
@@ -104,7 +104,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/instagram.svg" width={20} height={20} />
+                  <img src="/Assets/icons/instagram.svg" width={20} height={20} alt="instagram" />
 
                 </a>
               </li>
@@ -115,7 +115,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/facebook.svg" width={20} height={20} />
+                  <img src="/Assets/icons/facebook.svg" width={20} height={20} alt="facebook" />
                 </a>
               </li>
             </ul>
