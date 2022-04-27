@@ -29,7 +29,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Blockchain, Deep Learning and Natural Launguage Processing.
                 </b>
               </i>
               <br />
