@@ -35,8 +35,8 @@ const useWindowSize = () => {
 
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []); // Empty array ensures that effect is only run on mount and unmount
+
+    }, []); 
 
     return windowSize;
 };
@@ -52,7 +52,7 @@ const Testimonial = () => {
     return (
         <>
             <h1 className="testimonial-heading">
-                <strong className="purple">Testimonials</strong>
+                <strong className="purple">What Client Say</strong>
             </h1>
             <Row className="swiper-section">
                 <Swiper
@@ -61,20 +61,19 @@ const Testimonial = () => {
                     spaceBetween={spaceBeteen}
                     pagination={{ clickable: true }}
                     autoplay={{
-                        delay: 8000
+                        delay: 5000,
+                        disableOnInteraction: false,
                     }}
+                    loop={true}
                     breakpoints={{
-                        // when window width is >= 320px
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 20
                         },
-                        // when window width is >= 480px
                         480: {
                             slidesPerView: 2,
                             spaceBetween: 30
                         },
-                        // when window width is >= 640px
                         640: {
                             slidesPerView: 3,
                             spaceBetween: 40
@@ -82,7 +81,12 @@ const Testimonial = () => {
                     }}
 
                 >
-                    {data.map((value, index) => <Col md={4} className="project-card" key={index}><SwiperSlide key={index} ><TestimonialCard userImg={value.userImg} description={value.description} userInfo={value.userInfo} rating={value.rating} reference={value.reference} /></SwiperSlide></Col>)}
+                    {data.map((value, index) =>
+                        <Col md={4} className="project-card" key={index}>
+                            <SwiperSlide key={index} >
+                                <TestimonialCard userImg={value.userImg} description={value.description} userInfo={value.userInfo} rating={value.rating} reference={value.references} />
+                            </SwiperSlide>
+                        </Col>)}
                 </Swiper>
             </Row>
         </>

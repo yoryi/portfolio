@@ -1,22 +1,43 @@
 [
     {
-        "title": "Javascript",
-        "imgPath": "/Assets/icons/javascript.svg",
-        "imgPath1": "/Assets/icons/javascript1.svg",
-        "percent": "0.98",
-        "type": "default"
-
-    },
-
-    {
         "title": "React",
         "imgPath": "/Assets/icons/react.svg",
         "imgPath1": "/Assets/icons/react1.svg",
         "percent": "1",
-        "type": "small"
+        "type": "default"
+    },
+    {
+        "title": "HTML",
+        "imgPath": "/Assets/icons/html.svg",
+        "imgPath1": "/Assets/icons/html1.svg",
+        "percent": "1",
+        "type": "default"
     },
 
     {
+        "title": "CSS",
+        "imgPath": "/Assets/icons/css.svg",
+        "imgPath1": "/Assets/icons/css1.svg",
+        "percent": "1",
+        "type": "default"
+    },
+
+    {
+        "title": "Javascript",
+        "imgPath": "/Assets/icons/javascript.svg",
+        "imgPath1": "/Assets/icons/javascript1.svg",
+        "percent": "1",
+        "type": "default"
+
+    },
+    {
+        "title": "Typescript",
+        "imgPath": "/Assets/icons/typescript.svg",
+        "imgPath1": "/Assets/icons/typescript1.svg",
+        "percent": "1",
+        "type": "default"
+    },
+   {
         "title": "Next",
         "imgPath": "/Assets/icons/nextjs.svg",
         "imgPath1": "/Assets/icons/nextjs1.svg",
@@ -78,15 +99,6 @@
     },
 
     {
-        "title": "Shopify",
-        "imgPath": "/Assets/icons/shopify.svg",
-        "imgPath1": "/Assets/icons/shopify1.svg",
-        "percent": "0.8",
-        "type": "default"
-
-    },
-
-    {
         "title": "AWS",
         "imgPath": "/Assets/icons/aws.svg",
         "imgPath1": "/Assets/icons/aws1.svg",
@@ -112,22 +124,6 @@
         "percent": "0.9",
         "type": "small"
 
-    },
+    }    
     
-    {
-        "title": "Github",
-        "imgPath": "/Assets/icons/github.svg",
-        "imgPath1": "/Assets/icons/github1.svg",
-        "percent": "0.9",
-        "type": "default"
-
-    },
-
-    {
-        "title": "Bitbucket",
-        "imgPath": "/Assets/icons/bitbucket.svg",
-        "imgPath1": "/Assets/icons/bitbucket1.svg",
-        "percent": "0.9",
-        "type": "small"
-    }
 ]

@@ -582,7 +582,7 @@ button:focus {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
-  padding-top: 10px !important;
+  padding-top: 50px !important;
 }
 
 /* --------- */
@@ -634,7 +634,7 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
+.tech-icons:hover, .tool-icons:hover {
   transform: scale(1.05) !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
@@ -919,7 +919,9 @@ button:focus {
   width: 72px;
   height: 72px;
 }
-
+.testimonial-card-view {
+  cursor: default;
+}
 .testimonial-card-view .overlay {
   position: absolute;
   bottom: 0;
@@ -930,7 +932,6 @@ button:focus {
   overflow: hidden;
   height: 0px;
   width: 120px!important;
-  /* border-radius: 50%!important; */
   align-self: center;
   transform: translate(-50%, 0);
   transition: .4s ease;
@@ -943,7 +944,6 @@ button:focus {
 
 
 .testimonial-card-view  .overlay-circle:hover .overlay {
-  /* display: block; */
   height: 120px;
 }
 
@@ -954,14 +954,10 @@ button:focus {
   left: 50%;
   top: 50%;
   transform: translate(-50%,  -50%);  
-  /* height: 120px; */
 }
 
-
-.testimonial-card-view .user-img{
-  /* border-width: 3px;
-  border-style: solid;
-  border-color: #eebd27; */
+.testimonial-heading {
+  margin-top: 20px;
 }
 
 .overlay-circle {

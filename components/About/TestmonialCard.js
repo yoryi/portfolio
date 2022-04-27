@@ -8,7 +8,6 @@ const TestimonialCard = (props) => {
     const fallBackSrc = fallback.src;
     const fullname = props.userInfo.split(",")[0];
     const career = props.userInfo.split(",")[1];
-
     return (
         <Card className="testimonial-card-view">
             <Card.Header>
@@ -17,7 +16,7 @@ const TestimonialCard = (props) => {
                     <div className="overlay">
                         <div className="social-icons">
                             <a
-                                href={props.references?.linkedin}
+                                href={props.reference?.linkedin}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ marginRight: '20px', cursor: 'pointer' }}
@@ -25,7 +24,7 @@ const TestimonialCard = (props) => {
                                 <img src="/Assets/icons/linkedin1.svg" width={25} height={25} />
                             </a>
                             <a
-                                href={props.references?.facebook}
+                                href={props.reference?.facebook}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ cursor: 'pointer' }}
