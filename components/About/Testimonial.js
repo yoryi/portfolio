@@ -52,7 +52,7 @@ const Testimonial = () => {
     return (
         <>
             <h1 className="testimonial-heading">
-                <strong className="purple">What Client Say</strong>
+                <strong className="purple">What Clients Say</strong>
             </h1>
             <Row className="swiper-section">
                 <Swiper

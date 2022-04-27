@@ -2,6 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Tilt from "react-parallax-tilt";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiOutlineMail
+} from "react-icons/ai";
+import { SiUpwork } from 'react-icons/si';
+import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -62,7 +69,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/upwork.svg" width={20} height={20} alt="upwork" />
+                  < SiUpwork />
                 </a>
               </li>
               <li className="social-icons">
@@ -72,7 +79,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/github3.svg" width={20} height={20} alt="github" />
+                  <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
@@ -82,8 +89,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <img src="/Assets/icons/email.svg" width={20} height={20} alt="email" />
-
+                  <AiOutlineMail />
                 </a>
               </li>
               <li className="social-icons">
@@ -93,7 +99,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <img src="/Assets/icons/linkedin.svg" width={20} height={20} alt="linkedin" />
+                  <FaLinkedinIn />
 
                 </a>
               </li>
@@ -104,7 +110,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/instagram.svg" width={20} height={20} alt="instagram" />
+                  <AiFillInstagram />
 
                 </a>
               </li>
@@ -115,7 +121,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <img src="/Assets/icons/facebook.svg" width={20} height={20} alt="facebook" />
+                  <FaFacebook />
                 </a>
               </li>
             </ul>
