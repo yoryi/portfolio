@@ -33,7 +33,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with{" "}
               <b className="purple">
-                Blockchain Smart Contract, NFT, and Deep Learning and Natural
+                Blockchain Smart Contract, NFT, Deep Learning and Natural
                 Launguage Processing.
               </b>{" "}
             </p>
