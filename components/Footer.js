@@ -21,8 +21,12 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/Assets/icons/upwork.svg" width={15} height={15} alt="upwork" />
-
+                <img
+                  src="/Assets/icons/upwork.svg"
+                  width={15}
+                  height={15}
+                  alt="upwork"
+                />
               </a>
             </li>
             <li className="social-icons">
@@ -31,7 +35,12 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/Assets/icons/github2.svg" width={15} height={15} alt="github" />
+                <img
+                  src="/Assets/icons/github2.svg"
+                  width={15}
+                  height={15}
+                  alt="github"
+                />
               </a>
             </li>
             <li className="social-icons">
@@ -39,39 +48,26 @@ function Footer() {
                 href="mailto:jorgihno.ojeda@gmail.com"
                 rel="noopener noreferrer"
               >
-                <img src="/Assets/icons/email.svg" width={16} height={15} alt="email" />
-
+                <img
+                  src="/Assets/icons/email.svg"
+                  width={16}
+                  height={15}
+                  alt="email"
+                />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://linkedin.com/yoryi"
+                href="https://www.linkedin.com/in/jorgihno-ojeda/"
                 target="_blank"
                 rel="noopener noreferrer"
-
               >
-                <img src="/Assets/icons/linkedin.svg" width={14} height={14} alt="linkedin" />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/yoryi"
-                target="_blank"
-                rel="noopener noreferrer"
-
-              >
-                <img src="/Assets/icons/instagram.svg" width={14} height={14} alt="instagram" />
-
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.facebook.com/yoryi"
-                target="_blank"
-                rel="noopener noreferrer"
-
-              >
-                <img src="/Assets/icons/facebook.svg" width={14} height={14} alt="facebook" />
+                <img
+                  src="/Assets/icons/linkedin.svg"
+                  width={14}
+                  height={14}
+                  alt="linkedin"
+                />
               </a>
             </li>
           </ul>
