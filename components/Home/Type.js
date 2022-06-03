@@ -7,8 +7,8 @@ function Type() {
       options={{
         strings: [
           "Professional React.js Engineer",
-          "AWS Architect",
-          "FullStack Engineer",
+          "Certified AWS Architect",
+          "Senior FullStack Engineer",
         ],
         autoStart: true,
         loop: true,
