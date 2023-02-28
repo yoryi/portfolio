@@ -17,20 +17,6 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://www.upwork.com/fl/yoryojeda"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/Assets/icons/upwork.svg"
-                  width={15}
-                  height={15}
-                  alt="upwork"
-                />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://github.com/yoryi"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,20 +39,6 @@ function Footer() {
                   width={16}
                   height={15}
                   alt="email"
-                />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/jorgihno-ojeda/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/Assets/icons/linkedin.svg"
-                  width={14}
-                  height={14}
-                  alt="linkedin"
                 />
               </a>
             </li>
