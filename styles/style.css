@@ -553,6 +553,7 @@ button:focus {
   height: 120px!important;
   border-radius: 50%!important;
   align-self: center;
+  object-fit: cover;
 }
 
 .blog-img {
