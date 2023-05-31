@@ -51,7 +51,7 @@ export const data = [
   {
     userInfo: "Kieran Derfus, Product Manager @ Framework Labs",
     description:
-      "Jorgihno was great to work with and he stepped in to help us out with some of our requirements for web components that he was creating for us. He was willing to work at helping us define some of the interfaces which saved a lot of time on our end in terms of project requirements. He communicated clearly, worked to meet our deadlines and was a pleasure to work, and we hope to work with him again.",
+      "Jorgihno was great to work with. He stepped in to write a few web components for a one-off project and I was impressed by his communication skills, code quality, and speed of execution. I look forward to working with him again.",
     rating: "5",
     userImg: kieranImg,
     references: {
